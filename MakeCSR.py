@@ -80,6 +80,6 @@ def make_csr(json_filename, csv_filename, node_filename, edge_filename):
 
 make_csr("data/gemsec_deezer_dataset/deezer_clean_data/HR_genres.json",  \
             "data/gemsec_deezer_dataset/deezer_clean_data/HR_edges.csv", \
-            "HR.nodes", "HR.edges")
+            "result/HR.nodes", "result/HR.edges")
 
 
